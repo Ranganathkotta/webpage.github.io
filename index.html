@@ -21,7 +21,7 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#why">Why Choose Us</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="#faq">FAQs</a></li>
                 </ul>
             </nav>
@@ -93,21 +93,21 @@
                 <h2>Our Unique Services</h2>
                 <p>Explore our diverse offerings to enrich understanding and connection.</p>
                 <div class="service-grid">
-                    <div class="service-card" data-title="Courses" data-detail="Our courses include short-term programs on Language and Mathematics, emphasizing Sanskrit grammar and compassion, and long-term studies like Ashtadhyayi and diverse writing forms. Learn to decode intentions through structured learning.">
+                    <div class="service-card" data-title="Courses" data-detail="Our courses include short-term programs on Language and Mathematics, emphasizing Sanskrit grammar and compassion, and long-term studies like Ashtadhyayi and diverse writing forms. Learn to decode intentions through structured learning." data-modal-class="modal-courses">
                         <div class="service-image courses-image">
                             <img src="courc.png" alt="Courses" class="animated-image">
                         </div>
                         <h3>Courses</h3>
                         <p>Explore our short-term courses on Language and Mathematics emphasizing Sanskrit grammar and compassion, alongside long-term studies of Ashtadhyayi and diverse writing forms.</p>
                     </div>
-                    <div class="service-card" data-title="Research" data-detail="Our research spans Linguistics, Psychology, Taxonomy, AI & ML, Sociology, and Ethics. We focus on automatic intention transmission in media, algorithm conversion for AI, and designing indigenous tools to enhance cross-species communication.">
+                    <div class="service-card" data-title="Research" data-detail="Our research spans Linguistics, Psychology, Taxonomy, AI & ML, Sociology, and Ethics. We focus on automatic intention transmission in media, algorithm conversion for AI, and designing indigenous tools to enhance cross-species communication." data-modal-class="modal-research">
                         <div class="service-image research-image">
                             <img src="resr.png" alt="Research" class="animated-image">
                         </div>
                         <h3>Research</h3>
                         <p>Explore research across Linguistics, Psychology, Taxonomy, AI & ML, Sociology, and Ethics, emphasizing automatic intention transmission in media, algorithm conversion for AI, and the design of indigenous tools and devices.</p>
                     </div>
-                    <div class="service-card" data-title="Educational Games" data-detail="Our educational games promote ethics, empathy, and positivity. Designed to enhance learning, they foster meaningful connections and personal growth through interactive and engaging experiences.">
+                    <div class="service-card" data-title="Educational Games" data-detail="Our educational games promote ethics, empathy, and positivity. Designed to enhance learning, they foster meaningful connections and personal growth through interactive and engaging experiences." data-modal-class="modal-games">
                         <div class="service-image games-image">
                             <img src="gam.png" alt="Educational Games" class="animated-image">
                         </div>
@@ -142,7 +142,7 @@
                 </div>
             </div>
         </section>
-        
+       <!--
         <section id="testimonials" class="content-section">
             <div class="container">
                 <h2>Testimonials</h2>
@@ -167,19 +167,7 @@
                 </div>
             </div>
         </section>
-        
-        <section id="contact" class="content-section">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <p>Reach out for inquiries, courses, or collaborations at Bhāvajālam. We're here to assist you!</p>
-                <div class="contact-info">
-                    <p><i class="fas fa-map-marker-alt"></i> 86-part2, Bank Colony, Pudipatla</p>
-                    <p><i class="fas fa-phone"></i> +919392437920</p>
-                    <p><i class="fas fa-envelope"></i> <a href="mailto:hemanthyangala@gmail.com">hemanthyangala@gmail.com</a></p>
-                    <p><i class="fas fa-clock"></i> Sun: Closed, Mon-Fri: 8 am-6 pm, Sat: 10 am-4 pm</p>
-                </div>
-            </div>
-        </section>
+    -->
         
         <section id="faq" class="content-section">
             <div class="container">
@@ -196,7 +184,7 @@
                     </div>
                     <div class="faq-item">
                         <h3>How can I contact you for more information?</h3>
-                        <p>You can reach us at +919392437920 or email <a href="mailto:hemanthyangala@gmail.com">hemanthyangala@gmail.com</a> for any inquiries.</p>
+                        <p>You can reach us via our <a href="contact.html">contact form</a> or email <a href="mailto:hemanthyangala@gmail.com">hemanthyangala@gmail.com</a> for any inquiries.</p>
                     </div>
                     <div class="faq-item">
                         <h3>Where is Bhāvajālam located?</h3>
@@ -218,8 +206,11 @@
     <div id="modal" class="modal">
         <div class="modal-content">
             <span class="modal-close">×</span>
+            <div class="modal-icon"></div>
             <h3 id="modal-title"></h3>
             <p id="modal-detail"></p>
+            <button class="modal-action"></button>
+            <span class="recently-viewed">Recently Viewed</span>
         </div>
     </div>
     

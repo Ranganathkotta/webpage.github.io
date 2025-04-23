@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bhāvajālam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="floating-header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="Bhāvajālam Logo" class="header-logo">
+                <div class="logo">Bhāvajālam</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#vision">Vision & Mission</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#why">Why Choose Us</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="index.html#faq">FAQs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="content-section contact-section visible">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Reach out for inquiries, courses, or collaborations. We're here to assist you!</p>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+                        <div class="error-message">Please enter your name</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+                        <div class="error-message">Please enter a valid email address</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="Phone" placeholder="Enter your phone number">
+                        <div class="error-message">Please enter a valid phone number</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="Subject" placeholder="Enter subject">
+                        <div class="error-message">Please enter a subject</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="Message" placeholder="Enter your message here..." required></textarea>
+                        <div class="error-message">Please enter your message</div>
+                    </div>
+                    
+                    <button type="submit" class="cta-button">Send Message</button>
+                    <div class="form-message"></div>
+                </form>
+                
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 86-part2, Bank Colony, Pudipatla</p>
+                    <p><i class="fas fa-phone"></i> +919392437920</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:hemanthyangala@gmail.com">hemanthyangala@gmail.com</a></p>
+                    <p><i class="fas fa-clock"></i> Sun: Closed, Mon-Fri: 8 am-6 pm, Sat: 10 am-4 pm</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>© 2025 Bhāvajālam. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-icon"></div>
+            <h3 id="modal-title"></h3>
+            <p id="modal-detail"></p>
+            <button class="modal-action"></button>
+            <div class="recently-viewed">Recently Viewed</div>
+        </div>
+    </div>
+    
+    <script src="contactscript.js"></script>
+</body>
+</html>
